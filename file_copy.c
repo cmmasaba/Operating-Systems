@@ -54,8 +54,8 @@ ssize_t copy (const char src[], const char dest[])
 	/* precede the close operations with fsync */
 	fsync1 = fsync(fd1);
 	fsync2 = fsync(fd2);
-	close1 = close (fd1);
-	close2 = close (fd2);
+	close1 = close(fd1);
+	close2 = close(fd2);
 	/* check if the files were properly closed */
 	if ( (fsync1 == 1) || (fsync2 == -1))
 	{
