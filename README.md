@@ -12,6 +12,6 @@ A description of the files contained in this project: <br/>
 |file_copy.c| a program that copies the contents of a source file to a destination file. Programming Problem 2.26|
 
 ## Contributors
-Collins Mmasaba
+Collins Mmasaba<br/>
 `Email:` <collins.k.mmasaba@gmail.com><br/>
 2022
