@@ -15,7 +15,7 @@ A description of the files contained in this project: <br/>
 ## Usage
 Clone the repository to your machine.
 <br/>
-#### Linux kernel modules
+### 1) Linux kernel modules
 The Linux kernel module `simple.c` can be compiled using the Makefile that is provided along with the source code.<br/>
 To compile the module enter the following command on the command line: <br/>
 ```C
