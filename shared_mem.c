@@ -4,6 +4,9 @@
 #include <fcntl.h>
 #include <sys/shm.h>
 #include <sys/stat.h>
+#include <unistd.h>
+#include <sys/mman.h>
+#include <sys/types.h>
 
 /**
  * shm_write - does the write operation on the shared memory
@@ -13,12 +16,12 @@
 void shm_write (void)
 {
 	/* size in bytes of the shared memory object */
-	const int SIZE 4096;
+	const int SIZE = 4096;
 	/* name of the shared memory object */
 	const char *name = "SH_M";
 	/* strings to be written to the shared memory */
-	const char *message_1 = "Hello";
-	const char *message_2 = "World";
+	const char *message_1 = "Hello ";
+	const char *message_2 = "World\n";
 	/* shared memory file descriptor */
 	int shm_fd;
 	/* pointer to the shared memory */
@@ -45,7 +48,7 @@ void shm_write (void)
 void shm_read (void)
 {
 	/* size in bytes of the shared memory object */
-	const int SIZE 4096;
+	const int SIZE = 4096;
 	/* name of the shared memory object */
 	const char *name = "SH_M";
 	/* shared memory file descriptor */
