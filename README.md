@@ -11,7 +11,8 @@ A description of the files contained in this project: <br/>
 |:---------------:|:--------------------|
 |file_copy.c| a program that copies the contents of a source file to a destination file. Programming Problem 2.26|
 |simple.c| creating kernel modules; Chapter2; Part I of programming projects on creating Linux Modules|
-|ordinary_pipe.c| a program that illustrates how to create and use ordinary pipes for IPC. Chapter 3 example|
+|shared_mem.c| a program showing how shared memory is used for IPC using the POSIX API |
+|ordinary_pipe.c| a program that illustrates how to create and use ordinary pipes for client-server communication. Chapter 3 example|
 
 ## Usage
 Clone the repository to your machine.
