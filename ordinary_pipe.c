@@ -50,7 +50,7 @@ int main (void)
 		close(fd[WRITE_END]);
 		/* read from the pipe */
 		read(fd[READ_END], read_msg, len);
-		printf("Read: %s\n", read_msg);
+		printf("Read: %s", read_msg);
 		/* close the read end when done */
 		close(fd[READ_END]);
 	}
