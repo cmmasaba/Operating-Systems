@@ -10,11 +10,12 @@ A description of the files contained in this project: <br/>
 |**File**|**Description**|
 |:---------------:|:--------------------|
 |file_copy.c| a program that copies the contents of a source file to a destination file. Programming Problem 2.26|
-|simple.c| creating kernel modules; Chapter2; Part I of programming projects on creating Linux Modules|
-|shared_mem.c| a program showing how shared memory is used for IPC using the POSIX API |
-|ordinary_pipe.c| a program that illustrates how to create and use ordinary pipes for client-server communication. Chapter 3 example|
+|simple.c| creating `kernel modules`; Chapter2; Part I of programming projects on creating Linux Modules|
+|shared_mem.c| a program showing how `shared memory` is used for IPC using the POSIX API |
+|ordinary_pipe.c| a program that illustrates how to create and use `ordinary pipes` for client-server communication. Chapter 3 example|
 |collatz_conjecture.c| a program that calculates the collatz conjecture of a number. The parent process creates a child process which does the calculation. Programming Problem 3.21 |
-|collatz_shared_mem.c| a program that calculates the collatz conjecture, the parent process creates a child process which generates the sequence. Communication between the parrent process and child process is through shred memory. Programming Problen 3.22|
+|collatz_shared_mem.c| a program that calculates the collatz conjecture, the parent process creates a child process which generates the sequence. Communication between the parrent process and child process is through `shared memory`. Programming Problen 3.22|
+|reverse_case.c| a program that changes the cases of each letter in a string. The parent process and chile process communicate using` ordinary pipes`|
 
 ## Usage
 Clone the repository to your machine.
