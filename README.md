@@ -14,6 +14,7 @@ A description of the files contained in this project: <br/>
 |shared_mem.c| a program showing how shared memory is used for IPC using the POSIX API |
 |ordinary_pipe.c| a program that illustrates how to create and use ordinary pipes for client-server communication. Chapter 3 example|
 |collatz_conjecture.c| a program that calculates the collatz conjecture of a number. The parent process creates a child process which does the calculation. Programming Problem 3.21 |
+|collatz_shared_mem.c| a program that calculates the collatz conjecture, the parent process creates a child process which generates the sequence. Communication between the parrent process and child process is through shred memory. Programming Problen 3.22|
 
 ## Usage
 Clone the repository to your machine.
