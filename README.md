@@ -16,6 +16,7 @@ A description of the files contained in this project: <br/>
 |collatz_conjecture.c| a program that calculates the collatz conjecture of a number. The parent process creates a child process which does the calculation. Programming Problem 3.21 |
 |collatz_shared_mem.c| a program that calculates the collatz conjecture, the parent process creates a child process which generates the sequence. Communication between the parrent process and child process is through `shared memory`. Programming Problen 3.22|
 |reverse_case.c| a program that changes the cases of each letter in a string. The parent process and chile process communicate using` ordinary pipes`|
+|filecopy.c| a program that copies the contents of one file to another file. The parent process creates a child process and uses `ordinary pipes` to send the contents of the sorce file to the child process, which then writes the contents to the destination file.|
 
 ## Usage
 Clone the repository to your machine.
